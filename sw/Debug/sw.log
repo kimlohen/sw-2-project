@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 ﻿  sw.cpp
 c:\users\minsu\desktop\sw2project\sw\sw.cpp(22): warning C4101: 's' :참조되지 않은 지역 변수입니다.
   sw.vcxproj -> C:\Users\Minsu\Desktop\sw2project\sw\Debug\sw.exe
   sw.vcxproj -> C:\Users\Minsu\Desktop\sw2project\sw\Debug\sw.pdb (Full PDB)
+=======
+﻿  sw.cpp
+  sw.vcxproj -> C:\Users\Minsu\Desktop\sw\Debug\sw.exe
+  sw.vcxproj -> C:\Users\Minsu\Desktop\sw\Debug\sw.pdb (Full PDB)
+>>>>>>> d81074952c973d58edea8d2354847335e1dd91aa
