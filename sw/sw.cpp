@@ -115,11 +115,15 @@ int main() {
 
 	printf("\n-----------------------------\n"); // 깔끔하게 보이는 용도
 	for (int i = 0; i < count; i++) {
-		printf("%d. %s point : %d\n", i+1, list[i].name, list[i].num);
+		if (list[i].num != 0) {
+			printf("%d. | %s | point : %d\n", i + 1, list[i].name, list[i].num);
+		}
 	} // 출력!
 
 	printf("\n-----------------------------\n"); // 깔끔하게 보이는 용도
 
+
+	system("pause");
 	return 0;
 }
 
