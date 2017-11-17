@@ -1,5 +1,2 @@
-﻿  sw.cpp
-c:\users\minsu\desktop\sw2project\sw\sw.cpp(31): warning C4101: 'temp_name' :참조되지 않은 지역 변수입니다.
-c:\users\minsu\desktop\sw2project\sw\sw.cpp(30): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
-  sw.vcxproj -> C:\Users\Minsu\Desktop\sw2project\sw\Debug\sw.exe
+﻿  sw.vcxproj -> C:\Users\Minsu\Desktop\sw2project\sw\Debug\sw.exe
   sw.vcxproj -> C:\Users\Minsu\Desktop\sw2project\sw\Debug\sw.pdb (Full PDB)

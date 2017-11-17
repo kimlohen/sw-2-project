@@ -20,11 +20,11 @@ int main() {
 
 	char path[100] = "C:\\Users\\Minsu\\Desktop\\sw2project\\sw"; // 찾을 경로
 	int count = 0; // 
-	word list[100]; // 찾을 txt파일 수, 단어 수를 넣을 곳
+	word list[1000]; // 찾을 txt파일 수, 단어 수를 넣을 곳
 	char s[20]; // 찾으려고 하는 단어
 	FILE *fp; // 파일 포인터
 	char *r; // 읽어오는 포인터
-	char article[100][100] = { 0 , 0 }; //옮길 공간
+	char article[300][300] = { 0 , 0 }; //옮길 공간
 	char *ptr; // 읽을때 필요한 포인터
 	int n;
 	int temp;
@@ -116,7 +116,7 @@ int main() {
 	printf("\n-----------------------------\n"); // 깔끔하게 보이는 용도
 	for (int i = 0; i < count; i++) {
 		if (list[i].num != 0) {
-			printf("%d. | %s | point : %d\n", i + 1, list[i].name, list[i].num);
+			printf("%d. %s point : %d\n", i + 1, list[i].name, list[i].num);
 		}
 	} // 출력!
 
