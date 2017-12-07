@@ -41,8 +41,8 @@ int main() {
 
 	FILE_SEARCH file_search; // 구조체
 
-	//printf("텍스트 파일이 들어있는 폴더의 경로를 알려주세요.\\는 2번입력해주셔야 합니다. \n예시: C:\\\\Users\\\\Minsu\\\\Desktop\\\\sw2project\\\\sw\n");
-	//gets_s(path);
+	printf("텍스트 파일이 들어있는 폴더의 경로를 알려주세요.\\는 2번입력해주셔야 합니다. \n예시: C:\\\\Users\\\\Minsu\\\\Desktop\\\\sw2project\\\\sw\n");
+	gets_s(path);
 
 		printf("찾고자 하는 단어를 입력해주세요. ");
 		gets_s(s);// 찾고자 하는 단어 입력
