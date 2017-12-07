@@ -31,10 +31,6 @@ int main() {
 	char article2[300][300] = { 0, 0 }; // 두번째 공간
 	char article3[300][300] = { 0, 0 }; // 세번째 공간
 	char *ptr; // 읽을때 필요한 포인터
-	int n;
-	int temp;
-	char * temp_name;
-	char end;
 
 	long h_file;
 	char search_Path[100];
